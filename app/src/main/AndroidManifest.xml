@@ -14,6 +14,15 @@
         android:theme="@style/Theme.TermProject"
         tools:targetApi="31">
         <activity
+            android:name=".WeatherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SQLiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FBActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
