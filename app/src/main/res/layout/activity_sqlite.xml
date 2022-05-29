@@ -8,7 +8,7 @@
     tools:context=".SQLiteActivity">
 
     <TextView
-        android:id="@+id/txtSQLite"
+        android:id="@+id/txtFirebase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SQLite Database"
@@ -32,7 +32,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/txtID"
+                android:id="@+id/txtID_FB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -52,7 +52,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/txtFName"
+                android:id="@+id/txtFName_FB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -73,7 +73,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/txtFatherName"
+                android:id="@+id/txtFatherName_FB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -93,7 +93,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/txtLName"
+                android:id="@+id/txtLName_FB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -114,7 +114,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/txtMajor"
+                android:id="@+id/txtMajor_FB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -134,7 +134,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/txtDOB"
+                android:id="@+id/txtDOB_FB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -153,7 +153,7 @@
                 android:textSize="24sp" />
 
             <EditText
-                android:id="@+id/txtGender"
+                android:id="@+id/txtGender_FB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -163,27 +163,33 @@
     </TableLayout>
 
     <Button
-        android:id="@+id/btnAdd"
+        android:id="@+id/btnAdd_FB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ADD" />
 
     <Button
-        android:id="@+id/btnDelete"
+        android:id="@+id/btnDelete_FB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="DELETE" />
 
     <Button
-        android:id="@+id/btnUpdate"
+        android:id="@+id/btnUpdate_FB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="UPDATE" />
 
     <Button
-        android:id="@+id/btnView"
+        android:id="@+id/btnView_FB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="VIEW" />
+        android:text="VIEW (Specific ID)" />
+
+    <Button
+        android:id="@+id/btnViewAll_FB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW ALL RECORDS" />
 
 </LinearLayout>
